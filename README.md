@@ -1,4 +1,5 @@
- Intuition
+//Q1
+Intuition
 The LRU cache ensures the most recently accessed item is always at the front of a doubly linked list. When the cache exceeds its capacity, the least recently used item (at the end of the list) is removed. This guarantees O(1) operations for both lookup and eviction.
 
 Components
